@@ -195,6 +195,30 @@ header .navbar span{
 .about .row-1 .content .box-container .box span{
     color: var(--mainColor);
 }
+.skills .box-container{
+    padding-top: 20px;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+.skills .box-container .box{
+    flex: 1 1 30rem;
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: .5rem 1rem  rgba(0,0,0,.1)
+}
+.skills .box-container .box img{
+    max-width: 100px;
+    height: 100px;
+    border-radius: 10%
+}
+.skills .box-container .box h3{
+    padding-top: 10px;
+    font-size: 1.6rem;
+}
 .projects .heading{
     text-transform: none;
 }
