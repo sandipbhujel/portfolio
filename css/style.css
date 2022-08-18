@@ -113,6 +113,7 @@ header .navbar span{
     align-items: center;
     flex-wrap: wrap;
     gap: 1.5rem;
+    padding-top: 40px;
 }
 .home .image{
     flex: 1 1 40rem;
@@ -146,6 +147,7 @@ header .navbar span{
     color: #666;
     padding: .5rem 0;
 }
+
 .about .heading{
     text-transform: none;
 }
@@ -213,7 +215,7 @@ header .navbar span{
 .skills .box-container .box img{
     max-width: 100px;
     height: 100px;
-    border-radius: 10%
+    border-radius: 10%;
 }
 .skills .box-container .box h3{
     padding-top: 10px;
