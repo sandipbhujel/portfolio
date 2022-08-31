@@ -366,4 +366,8 @@ header .navbar span{
     header{
         width: 100%;
     }
+    #menu-bars{
+        display: initial;
+    }
+
 }
